@@ -1,0 +1,24 @@
+@startuml
+annotation java.lang.Override
+class InterfaceDesign.BankAccount
+class InterfaceDesign.Bond
+class InterfaceDesign.Car
+class InterfaceDesign.House
+class InterfaceDesign.Stock
+class InterfaceDesign.Wealth
+interface InterfaceDesign.Asset
+interface InterfaceDesign.Debt
+InterfaceDesign.BankAccount ..> java.lang.Override
+InterfaceDesign.BankAccount --|> InterfaceDesign.Asset
+InterfaceDesign.Bond ..> java.lang.Override
+InterfaceDesign.Bond --|> InterfaceDesign.Asset
+InterfaceDesign.Car ..> java.lang.Override
+InterfaceDesign.Car --|> InterfaceDesign.Asset
+InterfaceDesign.Car --|> InterfaceDesign.Debt
+InterfaceDesign.House ..> java.lang.Override
+InterfaceDesign.House --|> InterfaceDesign.Asset
+InterfaceDesign.House --|> InterfaceDesign.Debt
+InterfaceDesign.Stock ..> java.lang.Override
+InterfaceDesign.Stock --|> InterfaceDesign.Asset
+InterfaceDesign.Wealth ..> java.lang.Override
+@enduml

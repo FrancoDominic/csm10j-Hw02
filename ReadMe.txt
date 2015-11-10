@@ -1,0 +1,11 @@
+1. My first draft is very similar to my inheritance class diagram structure-wise. In terms of the subclass-superclass hierarchy, my first draft is pretty accurate. The biggest difference is in the members of the classes. In my draft, I have vague, general terms for member variables as well as pseudocode for methods, whereas the inheritance class diagram pretty much has all of the members that are actually part of the code.
+
+2. Although the two diagrams are very similar in content(member variables and methods), the biggest difference between the interface diagram and the inheritance diagram is the fact that two superclasses (Property and Security) are omitted from the interface diagram, while the Debt superclass is added. This gives the diagram a more ‘uniform’ and consistent feel.
+
+I think the advantage of the inheritance design is the fact that since Asset is the parent class of all other classes, it’s much easier to add different subclasses with new aspects other than a positive value and a negative value (debt), giving it more flexibility.
+
+The clear advantage of the interface design is the fact that any new Debts can be added independent from Asset. This allows for a wider scope of use for the program (i.e. the addition of loans, which aren’t assets). This also makes this design more organized.
+
+3. The main difference between the generated diagrams is how it shows any of the methods used that are implicit to the nature of the language. For example, whenever I overrode toString, the class diagram showed that it pulled from the java.lang package. This could be advantageous in larger, more complex programs because it gives a more detailed view of all the elements in the code. The generated diagrams also indicate whether a class is abstract, an interface, or a regular class.
+
+4. I wouldn’t change anything about the structure of either one, but I do think that they can be improved. Several other implementations can be added to make this program more effective, such as adding a user interface (so that it’s actually useable) or allowing it to read data from a file.
